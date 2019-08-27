@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby Starter Portfolio: Cara is released under the MIT license." />
   </a>
   <a href="https://t.me/everythingisrelative">
-    <img src="https://i.imgur.com/TbSxh1u.png" alt="contact @everythingisrelative" />
+    <img src="https://i.imgur.com/oA9xSfI.png" alt="contact @everythingisrelative" />
   </a>
   <a href="https://app.netlify.com/sites/adityaarpitha/deploys">
       <img src="https://api.netlify.com/api/v1/badges/a2aa731f-f88b-41eb-b225-11376c1dc9ec/deploy-status" alt="Netlify Status" />
@@ -24,3 +24,11 @@ Many thanks to leko arts for this Gatsby Theme. [`@lekoarts/gatsby-theme-cara`](
 [**Website Link**](https://adityaarpitha.com)
 
 So the landing page will have my details. A subdomain (blog branch) will used for blogging.
+
+
+To set up my code in your local device, for Ubuntu users first install [nvm](https://yoember.com/nodejs/the-best-way-to-install-node-js/) then
+get Node 9 or below since npm support is not there for the latest versions. Follow the [tutorial 0](https://www.gatsbyjs.org/tutorial/part-zero/)
+make sure you have npm and node. Then run `npm install -g gatsby-cli`. 
+
+Now run `npm install` in the root folder to add all 303 packages. Then run `gatsby develop` to set up a local server. 
+You should be able to find the site at [http://localhost:8000/](http://localhost:8000/)

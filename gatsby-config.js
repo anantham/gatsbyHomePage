@@ -4,7 +4,8 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    // Default title of the page
+    siteTitleAlt: `Aditya Prasad`,
   },
   plugins: [
     {
@@ -20,9 +21,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Aditya Arpitha Prasad`,
+        short_name: `Adi`,
+        description: `One-Page portfolio for Aditya`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
